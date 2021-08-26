@@ -1,0 +1,6 @@
+applications:
+- name: esixopportunityUI
+path: dist/evaluation-management
+instances: 1
+buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+memory: 128M
